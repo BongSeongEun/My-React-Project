@@ -8,7 +8,7 @@ function App() {
   // let [코트, a]=useState('남자 코트 추천')
   // let [우동, d]=useState('강남 우동맛집')
   // let [파이썬, c]=useState('파이썬독학')
-  let [글제목, 글제목변경]=useState(['남자코트 추천', '강남 우동 맛집', '파이썬독학'])
+  let [글제목, 글제목변경]=useState(['남자 코트 추천', '강남 우동 맛집', '파이썬독학'])
   let[따봉, 따봉변경]=useState(0);
   let [우동, d]=useState('강남 우동맛집')
 function 함수(){
