@@ -62,26 +62,6 @@ function App() {
         </Wrap>
       </div>
 
-      <button
-        onClick={() => {
-          let copy = [...글제목];
-          copy.sort();
-          글제목변경(copy);
-        }}
-      >
-        가나다순정렬
-      </button>
-
-      <button
-        onClick={() => {
-          let copy = [...글제목];
-          copy[0] = '여자코트 추천';
-          글제목변경(copy);
-        }}
-      >
-        글수정
-      </button>
-
       <ListWrap>
         {글제목.map(function (a, i) {
           return (
@@ -149,10 +129,7 @@ function App() {
     </div>
   );
 }
-// 동적 UI만드는 3STEP
-// 1. html css로 미리 디자인
-// 2. 현재 상태를 state에 저장
-// 3 state에 따라 UI가 어떻게 보일지 작성
+
 function Modal(props) {
   return (
     <div>
